@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICVICTOR</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#"</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h1 class="display-4">VICTOR CHEGE</h1>
+            <p class="lead">"Empowering Tomorrow's Innovations, Today."</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <p>Victor Chege is a highly motivated and proficient software developer based in Nairobi, Kenya. Currently pursuing a Bachelor of Science in Software Development at KCA University, Victor embarked on his software development journey in September 2021 and is expected to graduate in 2025. With a solid foundation in various programming languages and frameworks, he is equipped with the skills needed to tackle complex real-world challenges in the field of software development. Victor is dedicated to translating his theoretical knowledge into practical solutions, preparing himself for a successful career upon graduation.</p>
+            
+           
+            <!-- Skills and Interests Section -->
+            <section id="skills-interests" class="py-5">
+                <div class="container">
+                    <h2 class="text-center">Skills and Interests</h2>
+                    <div class="row">
+                        <!-- Skills Column -->
+                        <div class="col-md-6">
+                            <h3>Skills</h3>
+                            <ul>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>React.js</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>MongoDB</li>
+                            </ul>
+                        </div>
+                        <!-- Interests Column -->
+                        <div class="col-md-6">
+                            <h3>Interests</h3>
+                            <ul>
+                                <li>Software Development</li>
+                                <li>Data Science</li>
+                                <li>Machine Learning</li>
+                                <li>Traveling</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">TRIPXPERT</h5>
+                            <p class="card-text">Product Description:
+
+                                TripXpert is an innovative expert system designed to revolutionize the way people plan and experience their trips. It serves as a comprehensive travel planning and management platform that provides personalized recommendations, itineraries, and travel tips tailored to users' preferences and interests. By integrating various sources of travel information, TripXpert simplifies the travel planning process, making it more efficient and enjoyable for users.</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Project: HomeMaster -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/homemaster.png" class="card-img-top" alt="HomeMaster">
+                    <div class="card-body">
+                        <h5 class="card-title">HomeMaster</h5>
+                        <p class="card-text">HomeMaster is a comprehensive home service management platform designed to streamline household tasks and maintenance. It assists users in efficiently managing their home-related activities, such as scheduling appointments with service providers, tracking expenses, and maintaining important documents related to their property.</p>
+                        <p class="card-text"><strong>Key Features:</strong></p>
+                        <ul class="card-text">
+                            <li>Centralized platform for managing home maintenance and services</li>
+                            <li>Scheduling and reminders for home-related tasks</li>
+                            <li>Expense tracking and budget management</li>
+                            <li>Secure storage for important household documents</li>
+                        </ul>
+                        <p class="card-text"><strong>Technology Stack:</strong> Frontend: React.js, HTML, CSS; Backend: Node.js, Express.js; Database: MongoDB; Deployment: Heroku, AWS</p>
+                        <p class="card-text"><strong>Problems Solved:</strong> Time Management, Organization, Cost Management</p>
+                    </div>
+                </div>
+            </div>
+           
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Resume</h2>
+            <a href="resume.pdf" class="btn btn-primary" download>Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Victor chege</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
